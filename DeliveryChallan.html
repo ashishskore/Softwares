@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border-collapse: collapse;
+}
+#inner {
+  width: 50%;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+
+<h1 align=center>Company Details</h1>
+
+<table border= "1px solid black" align="center" width="80%">
+    <caption>Delivery Challan / Packing List</caption>
+  <tr>
+    <td>Customer Name</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>
+  	<table border= "none" cellspacing="0" cellpadding="0" width="100%">
+    	<tr><td width="30%">GST No.</td><td border="none"></td></tr>
+        <tr><td border="none" colspan="2">Kind Att</td></tr>
+    </table>
+    </td>
+    <td>
+    	<table border="none" cellspacing="0" cellpadding="0" width="100%">
+        	<tr><td  border="none" width="30%">Date : </td><td border="none">20200719</td></tr>
+          <tr><td  border="none">Transport PO No : </td><td border="none"></td></tr>
+          <tr><td  border="none">Date : </td><td border="none"></td></tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table align="center" border= "1px solid black" style="width:80%" >
+  <tr>
+    <th width="3%">Sr. No</th>
+    <th width="57%">Description</th>
+    <th width="10%">Qty</th>
+    <th width="10%">Stock</th>
+    <th width="10%">Sale</th>
+    <th width="10%">Total</th>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+  <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+    <tr>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+  <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+    <tr>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+  <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<label id='welcome'></label>
+<div id="inner">
+  <button id='print-pdf'>Convert to PDF</button>
+</div>
+<!-- Don't go beyond this -->
+<script>
+  require('./challanrenderer.js')
+</script>
+</body>
+</html>
